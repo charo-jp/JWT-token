@@ -72,7 +72,7 @@ function App() {
   };
 
   const handleDelete = async (e, id) => {
-    e.preventDefault();
+    e.preventDefault()
     setSuccess(false);
     setError(false);
     try {
